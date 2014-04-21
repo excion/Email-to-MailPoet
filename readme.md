@@ -1,5 +1,11 @@
 # To Use
 
+## Installation
+
+First, install this as a WordPress plugin.
+
+## What it Does
+
 A form can submit an `email` paramerter (among others, see below) 
 via GET to this plugin (see `form_to_mailpoet` below) and it will add 
 the email specified to the MailPoet list specified by `list_id`.
