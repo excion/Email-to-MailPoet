@@ -44,3 +44,7 @@ admin email, which only you should know.
 The url to go to when it's done.
 
 # Changelog
+
+## 1.0
+
+- A working version of the plugin :)
