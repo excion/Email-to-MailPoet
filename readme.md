@@ -1,31 +1,24 @@
 # To Use
 
-A form can submit an `email` via GET to this plugin and it will add the email
-to the MailPoet list specified by `list_id`.
+A form can submit an `email` paramerter (among others, see below) 
+via GET to this plugin (see `form_to_mailpoet` below) and it will add 
+the email specified to the MailPoet list specified by `list_id`.
 
 ## Example
 
-	?form_to_mailpoet=true&email=email@email.com&redirect_to=/free-trial/&list_id=10&admin_email=admin@email.com
+Just have your form post to `/` via GET / POST with the following parameters:
 
-### Multiple Lists
-
-You can use something like the below to add the email to multiple lists.
-
-	?form_to_mailpoet=true&email=email@email.com&redirect_to=/free-trial/&list_id=10,15&admin_email=admin@email.com
+	/?form_to_mailpoet=true&email=email@email.com&redirect_to=/free-trial/&list_id=10&admin_email=admin@email.com
 
 ## GET Parameters
 
 ### form_to_mailpoet (Required)
 
-This will tell the plugin to activate. Set to any value.
+This will tell the plugin to activate. Set to any value, `true` is good.
 
 ### email (Required)
 
-This is the email that should be added to the list. 
-
-### redirect_to
-
-The url to go to when it's done.
+This is the email that should be added to the list(s).
 
 ### list_id (Required)
 
@@ -39,5 +32,9 @@ You can also supply a comma separated list of id's: `&list_id=10,15`
 The admin email in the settings. This is a security measure to ensure that 
 big bad hackers can't just add emails to your lists, they have to know the 
 admin email, which only you should know.
+
+### redirect_to
+
+The url to go to when it's done.
 
 # Changelog
