@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Email to MailPoet
-Plugin URI: 
+Plugin URI: https://github.com/excion/Email-to-MailPoet
 Description: Adds an email specified via GET to a MailPoet list(s).
 Version: 1.0
 Author: Aubrey Portwood of Excion
