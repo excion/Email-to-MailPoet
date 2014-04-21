@@ -127,8 +127,6 @@ function rmftmpls_init() {
 			// Do nothing.
 		}
 
-		var_dump($lists); exit;
-
 	// If we don't have all the requirements.
 	}elseif( isset( $_REQUEST['form_to_mailpoet'] ) ){
 		wp_die(
